@@ -3,10 +3,10 @@ from replit import clear
 
 
 def report(elements):
-    print(f"Water: {elements['Water']}ml: ")
-    print(f"Milk: {elements['Milk']}ml: ")
-    print(f"Coffee: {elements['Coffee']}g: ")
-    print(f"Money: R${elements['Money']}: ")
+    print(f"Water: {elements['Water']}ml ")
+    print(f"Milk: {elements['Milk']}ml ")
+    print(f"Coffee: {elements['Coffee']}g ")
+    print(f"Money: R${elements['Money']} ")
 
 
 def check_resources(choose, menu_in_function, resources_in_function):
